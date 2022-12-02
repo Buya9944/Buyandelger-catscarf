@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.caty {
+  width: 100%;
+  height: 100vh;
+  /* background-color: aquamarine; */
+  background-image: url(./img_homepage_slider1\ \(1\).webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caty .catsdeed {
+  width: 800px;
+  height: 100px;
+  /* background-color: bisque; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.caty .catsdeed .neg {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+.caty .catsdeed .dund {
+  width: 700px;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caty .catsdeed .dund svg {
+  width: 100%;
+  height: 100%;
+}
+.caty .catsdeed .gurav {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+.caty .tombichig{
+  width: 100%;
+  background-color: pink;
+}
+
+.container {
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+.container .con1 {
+  width: 100%;
+  height: 30%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container .con1 .coo {
+  width: 30%;
+  height: 30px;
+  /* background-color: rgb(179, 107, 12); */
+}
+.container .con1 .cooc {
+  width: 50%;
+  height: 30px;
+  /* background-color: blueviolet; */
+}
+.container .con1 .cooc p {
+  font-size: 50px;
+  text-align: center;
+}
+.container .con1 .coop {
+  width: 50%;
+  height: 50px;
+  /* background-color:orange; */
+  margin-top: 30px;
+}
+
+.container .con2 {
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .con2 .miau .bi p{
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+.container .con2 .miau {
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(27, 16, 2); */
+  }
+.container .con2 .miau .uluzegdegc {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: rgba(40, 39, 39, 0.7);
+  top: 100px;
+  left: 70px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .con2 .miau .uluzegdegc .bi{
+  width: 245px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hr{
+  color: rgb(240, 248, 255);
+}
+.container .con2 .miau .uluzegdegc .bi p{
+  color: aliceblue;
+}
+
+
+.container .con2 .miau:hover .uluzegdegc{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.container .con2 .miau img {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.containeru {
+  width: 100%;
+  height: 650px;
+  /* background-color: aquamarine; */
+}
+.containeru .neg {
+  width: 30%;
+  height: 50px;
+  /* background-color: antiquewhite; */
+}
+.containeru .hoyor {
+  width: 50%;
+  height: 60px;
+  /* background-color: blue; */
+}
+.containeru .hoyor p {
+  font-size: 50px;
+}
+.containeru .gurav {
+  width: 50%;
+  height: 50px;
+  /* background-color: blueviolet; */
+}
+.containeru .buuki {
+  width: 100%;
+  height: 200px;
+  /* background-color: rgb(205, 163, 108); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.containeru .booki {
+  width: 70%;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content:center; */
+  /* align-items: center; */
+}
+.containeru .booki .diva {
+  width: 45%;
+  height: 100%;
+  position: relative;
+}
+/* .containeru .booki .diva img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.containeru .booki .diva .uul{
+position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: rgba(40, 39, 39, 0.7);
+  top: 80px;
+  left: 40px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s all;
+  bottom: 500px;
+}
+.containeru .booki .diva:hover .uul{
+  visibility: visible;
+  opacity: 1;
+}
+.container .divi{
+  width:100% ;
+  height:100% ;
+  background-color:beige;
+  /* background-image: url(./img_homepage_divider.webp); */
+}
+.container .divi .tomi{
+width: 100%;
+height:30% ;
+/* background-color: blue; */
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+.container .divi .tomi .toor{
+  margin: auto;
+  width:100% ;
+  height: 100%;
+  /* background-color: blueviolet; */
+}
+.container .divi .jerri{
+  width: 100%;
+  height: 70%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.container .divi .jerri .juja{
+  width: 33.3%;
+  height: 100%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+@media (max-width:1020px){
+  .caty{
+    /* visibility: hidden; */
+    display: none;
+  }
+}
+@media (max-width: 770px){
+  .con2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+.con2 .miau{
+    width: 60px;
+  }
+}
